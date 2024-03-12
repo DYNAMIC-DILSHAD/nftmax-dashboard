@@ -10,7 +10,6 @@ export default function CounterSection({ className }) {
       >
         <div className="counter-section-wrapper w-full flex flex-col justify-center bg-purple sm:h-[147px] rounded-lg px-8 py-5 sm:py-0">
           <div className="sm:flex justify-between">
-            {/* artworkd */}
             <div className="flex items-center space-x-2.5 mb-2 sm:mb-0">
               <div className="w-20 h-20 flex justify-center items-center bg-white    rounded-full">
                 <svg
