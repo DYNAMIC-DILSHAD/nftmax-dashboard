@@ -9,9 +9,9 @@ export default function ActiveBids() {
   const allBids = datas.datas;
   return (
     <>
-        <CounterSection className="mb-10" />
         <OverviewSection className="mb-10" />
         <AllBidsSection allBids={allBids} className="mb-10" />
+        <CounterSection className="mb-10" />
         <UpdateTable className="mb-10" />
     </>
   );
