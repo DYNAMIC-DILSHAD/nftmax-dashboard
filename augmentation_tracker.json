@@ -61,19 +61,19 @@
         "CounterSection":
         {
             "count": 1,
-            "location": "Top of the page of main section taking 100% width",
+            "location": "Bottom of the page of main section taking 100% width",
             "description": "Displays a counter section with dynamic counting functionality of artworks, auction, creators and canceled"
         },
         "OverviewSection":
         {
             "count": 1,
-            "location": "below countersection component of main section taking 100% width",
+            "location": " Top of the page of main section taking 100% width ",
             "description": " Includes information like the item's title, ID, current bid amount, remaining time for bidding, user details, and options for adding to favorites or placing a bid."
         },
         "AllBidsSection":
         {
             "count": 1,
-            "location": "Mid of the page above updatetable component of main section taking 100% width",
+            "location": "below OverviewSection component of main section taking 100% width",
             "description": "Displays all bids with associated product cards, enabling users to view artwork and bid on items",
             "children": {
                 "allbids-card":{
@@ -86,7 +86,7 @@
         "UpdateTable":
         {
             "count": 1,
-            "location": "Bottom of the page of main section taking 100% width",
+            "location": " Mid of the page above CounterSection component of main section taking 100% width",
             "description": "Table for displaying NFT updates with filter options."
         }
     },
